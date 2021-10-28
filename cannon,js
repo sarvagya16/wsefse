@@ -1,0 +1,16 @@
+class Cannon {
+    constructor(x,y,width,heigth,angle){
+this.x = x
+thsi.y = y
+this.width = width
+this.heigth = heigth
+this.angle = angle
+    }
+    display(){
+push()
+rectMode(CENTER)
+rect(this.x,this.y,this.width,this.heigth)
+rect(70,20,200,200)
+noFill()
+    }
+}
